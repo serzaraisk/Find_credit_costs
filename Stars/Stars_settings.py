@@ -5,9 +5,9 @@ from Settings_and_helper_functions import Print_sub_functions
 
 
 def create_connection():
-    """Создает connection к серверу RUMSKDB25,1113, к БД STAR"""
-    server_name = 'RUMSKDB25,1113'
-    database_name = 'STAR'
+    """R"""
+    server_name = ''
+    database_name = ''
     connection = pyodbc.connect(f'''
             Driver={{SQL Server Native Client 11.0}};
             Server={server_name};
